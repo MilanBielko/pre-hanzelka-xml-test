@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="pre hanzelka xml test.exe" version="1.0.0.2" publicKeyToken="7ada6a35a90db59f" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="pre hanzelka xml test" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="pre hanzelka xml test.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+            If you want to change the Windows User Account Control level replace the 
+            requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel node will disable file and registry virtualization.
+            If you want to utilize File and Registry Virtualization for backward 
+            compatibility then delete the requestedExecutionLevel node.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="pre hanzelka xml test.exe" size="14248">
+      <assemblyIdentity name="pre hanzelka xml test" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>rgAQ17swtSWcLZe7HfqF2jvuyKlfCKh39tnKZJKd0V4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="pre hanzelka xml test.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of all Windows versions that this application is designed to work with. 
+      Windows will automatically select the most compatible environment.-->
+      <!-- If your application is designed to work with Windows Vista, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}"></supportedOS>-->
+      <!-- If your application is designed to work with Windows 7, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>-->
+      <!-- If your application is designed to work with Windows 8, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}"></supportedOS>-->
+      <!-- If your application is designed to work with Windows 8.1, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}"/>-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=User-PC\User" issuerKeyHash="c07332b151047c0360c57b9107601a0a0f7e1fe2" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ihEnWC4vwe5QZ0VcMR4x1o89QSN4gXem1HuKmVteRSY=</DigestValue></Reference></SignedInfo><SignatureValue>x11u8B51Z+x4xIcTM4tK2P0faLZYk+sJ4zfF2Es18KKByI2c8SYIOQSa4nok1zusgPDskydRgAVZcFnJ5lPFAJ0nQu5yUFwpabIEcSfGMWRMI5ewS5Imh0yPiGFBGfdtPaPqPJCWGMPB4ih/CrRuTLwb+BELRrKXe4eKj6lzug0=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>5X2E881km2H+QYMXQLDHhUmeH29yl16CORJlov+fiEqJNS+D7yiGAvtP11R8YvyXVvW5annOzwMOtKMNDv4MF1MhSHVNPWarIoKLsNNe1ooYTserIFVD5MWQCmHvc/raJqtVTrAG3sbgZpuEc/kZ5VGMRf2MoEco259s/GkjLlk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="26455e5b998a7bd4a677817823413d8fd6311e315c456750eec12f2e5827118a" Description="" Url=""><as:assemblyIdentity name="pre hanzelka xml test.exe" version="1.0.0.2" publicKeyToken="7ada6a35a90db59f" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=User-PC\User</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>7bAP4i3e20iFlmg/mu0kbxkyAiHRc1t56NbODAJVpO8=</DigestValue></Reference></SignedInfo><SignatureValue>LxVQV/5J2UopUpoEKyefp3pRE5GRj+QNvOLBZV1Y/tgUFPY60JFocVr2VKdiOPamq+s/EJbiu34DHjo345f9dv+m5Dk5ExgQBA2cPX2Jl70pFM2l3iOC2AdUBjkfoGemS37wlnRL+Sde9fdr0NF7TEqUh3a+zY4SCBXwLpuoT2k=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>5X2E881km2H+QYMXQLDHhUmeH29yl16CORJlov+fiEqJNS+D7yiGAvtP11R8YvyXVvW5annOzwMOtKMNDv4MF1MhSHVNPWarIoKLsNNe1ooYTserIFVD5MWQCmHvc/raJqtVTrAG3sbgZpuEc/kZ5VGMRf2MoEco259s/GkjLlk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIByTCCATKgAwIBAgIQYfJnDTtCboFAAvYJu1Fm5TANBgkqhkiG9w0BAQsFADAjMSEwHwYDVQQDHhgAVQBzAGUAcgAtAFAAQwBcAFUAcwBlAHIwHhcNMjAwOTE1MDU1NjM1WhcNMjEwOTE1MTE1NjM1WjAjMSEwHwYDVQQDHhgAVQBzAGUAcgAtAFAAQwBcAFUAcwBlAHIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAOV9hPPNZJth/kGDF0Cwx4VJnh9vcpdegjkSZaL/n4hKiTUvg+8ohgL7T9dUfGL8l1b1uWp5zs8DDrSjDQ7+DBdTIUh1TT1mqyKCi7DTXtaKGE7HqyBVQ+TFkAph73P62iarVU6wBt7G4GabhHP5GeVRjEX9jKBHKNufbPxpIy5ZAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAlwOZ7xpBeS+6xAFiAuisgqKodX3iA133gpr4IOHyHKWk1WMbv7uh8et8qVoohK6AbCXAFN7dhHJqxBOUAZcGn54Ak+PCt63pBwSke1kNqiH8/bU0WKPLucUWvn8Z9akcBal2R2yHyjw/91rrfCmfWoKcFVINnFAenmOYiqpMgls=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
